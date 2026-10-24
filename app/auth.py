@@ -19,7 +19,7 @@ print(f"HASH PASSWORD : {hash_password}")
 # login verfication
 login_password = "@Mudit123"
 
-is_correct = pwd_context.login(
+is_correct = pwd_context.verify(
     login_password,
     hash_password
 )
